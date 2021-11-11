@@ -6,6 +6,7 @@
   "author": "Vinicius Trajano <vinicius.trajano@linkapi.com.br>",
   "license": "MIT",
   "scripts": {
+    "dev": "npm-run-all -p dev:*",
     "dev:server": "nodemon src/server.js",
     "dev:queue": "nodemon src/queue.js"
   },
