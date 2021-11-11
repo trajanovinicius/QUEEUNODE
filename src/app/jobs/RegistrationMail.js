@@ -11,7 +11,7 @@ export default {
       from: "Queue Test <queue@queuetest.com.br>",
       to: `${user.name} <${user.email}>`,
       subject: "Cadastro de usuário",
-      html: `Olá, ${user.name}, Bem-vindo ao sitema de filas :D`,
+      html: `Olá, ${user.name}, Bem-vindo ao sistema de filas :D`,
     });
   },
 };
