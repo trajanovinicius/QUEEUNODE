@@ -5,6 +5,9 @@
   "repository": "git@github.com:viniluk/QUEEUNODE.git",
   "author": "Vinicius Trajano <vinicius.trajano@linkapi.com.br>",
   "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
