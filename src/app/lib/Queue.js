@@ -1,6 +1,6 @@
 // Criando Filas
-import Queue from "bull";
 import redisConfig from "../../config/redis";
+import Queue from "bull";
 
 import * as jobs from "../jobs";
 
