@@ -15,7 +15,13 @@ export default {
       from: "Queue Test <queue@queuetest.com.br>",
       to: `${name} <${email}>`,
       subject: "Cadastro de e-mail",
-      html: `Olá, ${name}, Bem-VIndo ao sistema de filas :D`,
+      html: `Olá, ${name}, Bem-Vindo ao sistema de filas :D`,
+    });
+    Mail.sendMail({
+      from: "Queue Test <queue@queuetest.com.br>",
+      to: `${name} <${email}>`,
+      subject: "Cadastro de e-mail",
+      html: `Olá, ${name}, Aqui temos um Segundo e-mail em fila :D`,
     });
 
     return res.json(user);
