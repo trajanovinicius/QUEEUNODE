@@ -361,7 +361,7 @@
 
 "dotenv@^10.0.0":
   "integrity" "sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q=="
-  "resolved" "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz"
+  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-10.0.0.tgz"
   "version" "10.0.0"
 
 "duplexer3@^0.1.4":
@@ -1473,7 +1473,7 @@
 
 "sucrase@^3.20.3":
   "integrity" "sha512-azqwq0/Bs6RzLAdb4dXxsCgMtAaD2hzmUr4UhSfsxO46JFPAwMnnb441B/qsudZiS6Ylea3JXZe3Q497lsgXzQ=="
-  "resolved" "https://registry.yarnpkg.com/sucrase/-/sucrase-3.20.3.tgz"
+  "resolved" "https://registry.npmjs.org/sucrase/-/sucrase-3.20.3.tgz"
   "version" "3.20.3"
   dependencies:
     "commander" "^4.0.0"
